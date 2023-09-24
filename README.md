@@ -12,7 +12,7 @@ ___
         <img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-3.1.4-brightgreen.svg" />
     </a>
     <a href="License url" >
-        <img alt="GPL v3" src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
+        <img alt="BSD Clause 3" src="https://img.shields.io/badge/License-BSD_3--Clause-blue.svg"/>
     </a>
 </p>
 
@@ -288,7 +288,7 @@ The Job Search Portal project serves as a practical example of Spring Boot appli
 <!-- License -->
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 <!-- Acknowledgments -->
 ## Acknowledgments
