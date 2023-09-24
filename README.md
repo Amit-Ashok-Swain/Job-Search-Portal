@@ -119,6 +119,20 @@ The `Job` class in our Job Search Portal model is equipped with comprehensive da
 - **Validation:** None
 - **Description:** The `jobType` field is not subject to additional validation as it represents an enumeration of predefined job types.
 
+### Date
+
+- **Validation:** `@NotNull(message = "Date cannot be null")`, `@Past(message = "Date must be in the past")`
+- **Description:** The `date` field is validated to ensure it is not null and represents a date in the past.
+
+
+### Additional Data Validation
+
+- **Dynamic Default Values:** The `date` field has dynamic default values. The `date` field is set to the current date when a new `Job` was applied.
+
+- **Custom Validation:** We have implemented custom validation annotations for `Applied Date` fields to enforce specific format and logic requirements. These custom annotations are used for more fine-grained validation.
+
+These validations ensure that user data is accurately captured and meets specified criteria, contributing to the reliability and integrity of our User Management System. Users can trust that their information is handled with care and precision.
+
 These validations ensure that job data is accurately captured and meets specified criteria, contributing to the reliability and integrity of our Job Search Portal.
 
 ## Data Flow
