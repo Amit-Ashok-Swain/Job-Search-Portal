@@ -119,17 +119,18 @@ The `Job` class in our Job Search Portal model is equipped with comprehensive da
 - **Validation:** None
 - **Description:** The `jobType` field is not subject to additional validation as it represents an enumeration of predefined job types.
 
-### Date
+### Applied Date
 
 - **Validation:** `@NotNull(message = "Date cannot be null")`, `@Past(message = "Date must be in the past")`
-- **Description:** The `date` field is validated to ensure it is not null and represents a date in the past.
+- **Description:** The `appliedDate` field is validated to ensure it is not null and represents the date when the job was applied. I
 
 
 ### Additional Data Validation
 
-- **Dynamic Default Values:** The `date` field has dynamic default values. The `date` field is set to the current date when a new `Job` was applied.
+- **Dynamic Default Values (applied_date):** When creating a new job listing, the `applied_date` field is automatically set to the current date. This ensures that the applied date reflects when the job listing was added to the system.
 
-- **Custom Validation:** We have implemented custom validation annotations for `Applied Date` fields to enforce specific format and logic requirements. These custom annotations are used for more fine-grained validation.
+
+- **Custom Validation:** I have implemented custom validation to ensure that the `appliedDate` field adheres to a specific date format. It must be in the "yyyy-mm-dd" format to maintain consistency in date representation.
 
 These validations ensure that user data is accurately captured and meets specified criteria, contributing to the reliability and integrity of our User Management System. Users can trust that their information is handled with care and precision.
 
