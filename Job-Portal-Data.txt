@@ -4,23 +4,23 @@ http://localhost:8080/h2-console
 
 QUERY DATA :
 
-INSERT INTO Jobs (id, title, description, location, salary, company_email, company_name, employer_name, job_type)
+INSERT INTO Jobs (id, title, description, location, salary, company_email, company_name, employer_name, job_type, applied_date)
 VALUES
-  (1, 'Software Engineer', 'Develop software applications', 'New York', 80000.0, 'example1@example.com', 'ABC Inc.', 'John Doe', 'IT'),
-  (2, 'HR Manager', 'Manage human resources', 'Los Angeles', 60000.0, 'example2@example.com', 'XYZ Corp.', 'Jane Smith', 'HR'),
-  (3, 'Sales Representative', 'Sales and marketing', 'Chicago', 75000.0, 'example3@example.com', 'SalesCo', 'Mike Johnson', 'SALES'),
-  (4, 'Marketing Specialist', 'Marketing campaigns', 'San Francisco', 70000.0, 'example4@example.com', 'MarketingTech', 'Sarah Brown', 'MARKETING'),
-  (5, 'Data Scientist', 'Data analysis and modeling', 'Mumbai', 90000.0, 'example5@example.com', 'Indian Data', 'Rajesh Patel', 'IT');
-(6, 'Network Administrator', 'Manage network infrastructure', 'Dallas', 75000.0, 'example6@example.com', 'TechNet', 'David Wilson', 'IT'),
-    (7, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example7@example.com', 'Global Finance', 'Emily Turner', 'FINANCE'),
-    (8, 'Product Manager', 'Product development and strategy', 'San Jose', 85000.0, 'example8@example.com', 'Tech Innovations', 'Michael Clark', 'IT'),
-    (9, 'Customer Service Representative', 'Provide customer support', 'Toronto', 60000.0, 'example9@example.com', 'CustomerCare Inc.', 'Maria Rodriguez', 'SALES'),
-    (10, 'Graphic Designer', 'Create visual designs', 'Paris', 70000.0, 'example10@example.com', 'Creative Designs', 'Sophie Martin', 'MARKETING');
-  (11, 'IT Manager', 'Managing IT campaigns', 'San Francisco', 120000.0, 'example11@example.com', 'MarketingTech', 'Jitin Mishra', 'IT'),
-  (12, 'ML Engineer', 'Creating ML models', 'Mumbai', 98000.0, 'example12@example.com', 'Indian Data', 'Ashish Kumar', 'IT');
-(13, 'Software Lead', 'Leading team of Software Engineers', 'Dallas', 85000.0, 'example13@example.com', 'TechNet', 'Rahul Sharma', 'IT'),
-    (14, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example14@example.com', 'Global Finance', 'Yuvraj Shah', 'FINANCE'),
-    (15, 'Product Analyst', 'Product analysis', 'California', 85000.0, 'example15@example.com', 'Apple', 'Mitchell Stark', 'IT');
+  (1, 'Software Engineer', 'Develop software applications', 'New York', 80000.0, 'example1@example.com', 'ABC Inc.', 'John Doe', 'IT', 2023-03-25),
+  (2, 'HR Manager', 'Manage human resources', 'Los Angeles', 60000.0, 'example2@example.com', 'XYZ Corp.', 'Jane Smith', 'HR', 2023-03-24),
+  (3, 'Sales Representative', 'Sales and marketing', 'Chicago', 75000.0, 'example3@example.com', 'SalesCo', 'Mike Johnson', 'SALES', 2023-03-24),
+  (4, 'Marketing Specialist', 'Marketing campaigns', 'San Francisco', 70000.0, 'example4@example.com', 'MarketingTech', 'Sarah Brown', 'MARKETING', 2023-03-24),
+  (5, 'Data Scientist', 'Data analysis and modeling', 'Mumbai', 90000.0, 'example5@example.com', 'Indian Data', 'Rajesh Patel', 'IT', 2023-03-23);
+(6, 'Network Administrator', 'Manage network infrastructure', 'Dallas', 75000.0, 'example6@example.com', 'TechNet', 'David Wilson', 'IT', 2023-03-23),
+    (7, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example7@example.com', 'Global Finance', 'Emily Turner', 'FINANCE', 2023-03-23),
+    (8, 'Product Manager', 'Product development and strategy', 'San Jose', 85000.0, 'example8@example.com', 'Tech Innovations', 'Michael Clark', 'IT', 2023-03-22),
+    (9, 'Customer Service Representative', 'Provide customer support', 'Toronto', 60000.0, 'example9@example.com', 'CustomerCare Inc.', 'Maria Rodriguez', 'SALES', 2023-03-22),
+    (10, 'Graphic Designer', 'Create visual designs', 'Paris', 70000.0, 'example10@example.com', 'Creative Designs', 'Sophie Martin', 'MARKETING', 2023-03-22);
+  (11, 'IT Manager', 'Managing IT campaigns', 'San Francisco', 120000.0, 'example11@example.com', 'MarketingTech', 'Jitin Mishra', 'IT', 2023-03-21),
+  (12, 'ML Engineer', 'Creating ML models', 'Mumbai', 98000.0, 'example12@example.com', 'Indian Data', 'Ashish Kumar', 'IT', 2023-03-21);
+(13, 'Software Lead', 'Leading team of Software Engineers', 'Dallas', 85000.0, 'example13@example.com', 'TechNet', 'Rahul Sharma', 'IT', 2023-03-21),
+    (14, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example14@example.com', 'Global Finance', 'Yuvraj Shah', 'FINANCE', 2023-03-20),
+    (15, 'Product Analyst', 'Product analysis', 'California', 85000.0, 'example15@example.com', 'Apple', 'Mitchell Stark', 'IT', 2023-03-19);
 
 SWAGGER UI:
 
