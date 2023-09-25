@@ -39,7 +39,7 @@ JSON DATA:
         "companyEmail": "example1@example.com",
         "companyName": "ABC Inc.",
         "employerName": "John Doe",
-        "jobType": "IT"
+        "jobType": "IT",
         "appliedDate": "2023-03-25"
     },
     {
@@ -51,7 +51,7 @@ JSON DATA:
         "companyEmail": "example2@example.com",
         "companyName": "XYZ Corp.",
         "employerName": "Jane Smith",
-        "jobType": "HR"
+        "jobType": "HR",
         "appliedDate": "2023-03-24"
     },
     {
@@ -63,7 +63,7 @@ JSON DATA:
         "companyEmail": "example3@example.com",
         "companyName": "SalesCo",
         "employerName": "Mike Johnson",
-        "jobType": "SALES"
+        "jobType": "SALES",
         "appliedDate": "2023-03-24"
     },
     {
@@ -75,7 +75,7 @@ JSON DATA:
         "companyEmail": "example4@example.com",
         "companyName": "MarketingTech",
         "employerName": "Sarah Brown",
-        "jobType": "MARKETING"
+        "jobType": "MARKETING",
         "appliedDate": "2023-03-24"
     },
     {
@@ -87,7 +87,7 @@ JSON DATA:
         "companyEmail": "example5@example.com",
         "companyName": "Indian Data",
         "employerName": "Rajesh Patel",
-        "jobType": "IT"
+        "jobType": "IT",
         "appliedDate": "2023-03-23"
     }
 ]
@@ -103,7 +103,7 @@ JSON DATA:
         "companyEmail": "example6@example.com",
         "companyName": "TechNet",
         "employerName": "David Wilson",
-        "jobType": "IT"
+        "jobType": "IT",
         "appliedDate": "2023-03-23"
     },
     {
@@ -115,7 +115,7 @@ JSON DATA:
         "companyEmail": "example7@example.com",
         "companyName": "Global Finance",
         "employerName": "Emily Turner",
-        "jobType": "FINANCE"
+        "jobType": "FINANCE",
         "appliedDate": "2023-03-23"
     },
     {
@@ -127,7 +127,7 @@ JSON DATA:
         "companyEmail": "example8@example.com",
         "companyName": "Tech Innovations",
         "employerName": "Michael Clark",
-        "jobType": "IT"
+        "jobType": "IT",
         "appliedDate": "2023-03-22"
     },
     {
@@ -139,7 +139,7 @@ JSON DATA:
         "companyEmail": "example9@example.com",
         "companyName": "CustomerCare Inc.",
         "employerName": "Maria Rodriguez",
-        "jobType": "SALES"
+        "jobType": "SALES",
         "appliedDate": "2023-03-22"
     },
     {
@@ -151,7 +151,7 @@ JSON DATA:
         "companyEmail": "example10@example.com",
         "companyName": "Creative Designs",
         "employerName": "Sophie Martin",
-        "jobType": "MARKETING"
+        "jobType": "MARKETING",
         "appliedDate": "2023-03-22"
     }
 ]
