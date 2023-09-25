@@ -40,6 +40,7 @@ JSON DATA:
         "companyName": "ABC Inc.",
         "employerName": "John Doe",
         "jobType": "IT"
+        "appliedDate": "2023-03-25"
     },
     {
         "id": 2,
@@ -51,6 +52,7 @@ JSON DATA:
         "companyName": "XYZ Corp.",
         "employerName": "Jane Smith",
         "jobType": "HR"
+        "appliedDate": "2023-03-24"
     },
     {
         "id": 3,
@@ -62,6 +64,7 @@ JSON DATA:
         "companyName": "SalesCo",
         "employerName": "Mike Johnson",
         "jobType": "SALES"
+        "appliedDate": "2023-03-24"
     },
     {
         "id": 4,
@@ -73,6 +76,7 @@ JSON DATA:
         "companyName": "MarketingTech",
         "employerName": "Sarah Brown",
         "jobType": "MARKETING"
+        "appliedDate": "2023-03-24"
     },
     {
         "id": 5,
@@ -84,6 +88,7 @@ JSON DATA:
         "companyName": "Indian Data",
         "employerName": "Rajesh Patel",
         "jobType": "IT"
+        "appliedDate": "2023-03-23"
     }
 ]
 
@@ -99,6 +104,7 @@ JSON DATA:
         "companyName": "TechNet",
         "employerName": "David Wilson",
         "jobType": "IT"
+        "appliedDate": "2023-03-23"
     },
     {
         "id": 7,
@@ -110,6 +116,7 @@ JSON DATA:
         "companyName": "Global Finance",
         "employerName": "Emily Turner",
         "jobType": "FINANCE"
+        "appliedDate": "2023-03-23"
     },
     {
         "id": 8,
@@ -121,6 +128,7 @@ JSON DATA:
         "companyName": "Tech Innovations",
         "employerName": "Michael Clark",
         "jobType": "IT"
+        "appliedDate": "2023-03-22"
     },
     {
         "id": 9,
@@ -132,6 +140,7 @@ JSON DATA:
         "companyName": "CustomerCare Inc.",
         "employerName": "Maria Rodriguez",
         "jobType": "SALES"
+        "appliedDate": "2023-03-22"
     },
     {
         "id": 10,
@@ -143,6 +152,7 @@ JSON DATA:
         "companyName": "Creative Designs",
         "employerName": "Sophie Martin",
         "jobType": "MARKETING"
+        "appliedDate": "2023-03-22"
     }
 ]
 
